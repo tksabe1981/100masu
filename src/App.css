@@ -9,8 +9,8 @@
 }
 
 .cell {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,10 +28,9 @@ td {
   border: 1px solid black;
   text-align: center;
   padding: 8px;
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
-  /* 行と列のタイトルの文字サイズを更新 */
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
 }
 
 th {
@@ -45,12 +44,12 @@ th {
   height: 100%;
   text-align: center;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .tableCell {
-  width: 60px;
-  height: 40px;
+  width: 50px;
+  height: 30px;
   padding: 0;
 }
 
@@ -62,8 +61,7 @@ th {
 .rowTitle {
   background-color: #f0f0f0;
   font-weight: bold;
-  font-size: 20px;
-  /* 行のタイトルの文字サイズを更新 */
+  font-size: 16px;
 }
 
 .correctCell {
